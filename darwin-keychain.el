@@ -15,3 +15,5 @@
      "security 2>&1 >/dev/null find-generic-password -ga "
      account-name
      "| sed 's/^password: \\\"\\(.*\\)\\\"/\\1/'"))))
+
+(provide 'darwin-keychain)
